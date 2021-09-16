@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-content nav .navbar-nav{
+    margin-right: 100px;
+}
+.header-content nav .navbar-nav .nav-item .nav-link{
+    color:red;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../images/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 750px;
+}
+.container{
+    padding:0px 30px;
+}
+.home  .container .home-content{
+    color: white;
+    margin-top: 240px;
+}
+.home  .container .home-content h4{
+    font-family: 'Roboto', sans-serif;
+    flex-basis: 80%;
+    font-size: 5vh;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+.home  p{
+    font-size: 3vh;
+    width:300%;
+    height: 20%;
+    line-height: 40px;
+}
+.home  a .buttonReadMore{
+   background-color: red;
+   width:140px;
+   height: 55px;
+   border-radius: 5px;
+   margin: 50px 0px;
+}
+.home  a .buttonReadMore:hover{
+    opacity: 0.7;
+}
+.margin-space{
+  margin-top: 140px;
+}
+.AboutUs .AboutContent{
+    display: flex;
+    flex-basis: 80% ;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.margintop{
+  margin-top: 60px;
+}
+.AboutUs .imgAboutUs img{
+      width: 90%;
+}
+.AboutUs .paragraphAboutUs{
+    width:60%;
+}
+.AboutUs .paragraphAboutUs h5{
+   font-size: 5vh;
+   font-weight: bold;
+   color: red;
+}
+.AboutUs .paragraphAboutUs p{
+    font-size: 3vh;
+}
+.sectionOurServices {
+  background-color: #f0c929;
+  color: white;
+  height: fit-content;
+  padding: 90px 0px;
+}
+.OurServicesContent{
+  background-image: url('../images/back.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.sectionEfficiency{
+    background-color: red;
+    color: white;
+    height: fit-content;
+    padding: 90px 0px;
+}
+.sectionEfficiency .efficiencyContent h5,.sectionOurServices .OurServicesContent h5{
+    font-size: 7vh;
+    font-weight: bold;
+    text-align: center;
+    margin:70px 0px;
+    letter-spacing: 1.8px;
+}
+.sectionEfficiency .efficiencyContent p,.sectionOurServices .OurServicesContent ul li{
+    font-size: 3vh;
+    line-height: 45px;
+    color: white;
+    font-weight: bold;
+}
+.ourServiceParagraph{
+  display: flex;
+  justify-content: space-between;
+}
+.letter-organize{
+  padding-left: 5px;
+}
+.SafetyContent h4{
+    color: red;
+    font-size: 6vh;
+    letter-spacing: 1.8px;
+    text-align: center;
+    margin: 40px 0px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.SafetyContent p{
+    color: black;
+    font-size: 3vh;
+    letter-spacing: 1.8px;
+}
+.SafetyItems{
+  display: flex;
+  align-items: center;
+  flex-basis: 30%;
+}
+.SafetyItems .Safetyitem{
+    margin: 0px 10px;
+}
+.SafetyItems .Safetyitem span{
+   display: block;
+   background-color: red;
+   height: 90px;
+   width:270px;
+   height: 112px;
+   color: white;
+   padding: 15px;
+   border-radius: 6px 6px 0px 0px;
+   font-size: 2vh;
+}
+.SafetyItems .Safetyitem img{
+    border-radius: 0px 0px 6px 6px;
+}
+footer{
+   background-color: #414141;;
+   color: white;
+   height: 410px;
+   padding: 60px 0px;
+   font-size: 3vh;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.locationTitle{
+   text-align: center;
+   border: 1px solid whitesmoke;
+   background-color: whitesmoke;
+   color:red;
+}
+.footer-content .icons ul li{ list-style: none;   }
+.footer-content .icons ul li a i{
+    color: white;
+}
+.footer-content .icons,.footer-content .callUs-title{text-align:left;}
+.footer-content .icons ul{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: -21px;
+}
+.footer-content .icons ul li{
+    padding:0px 7px;
+}
+.footer-content .icons ul li i:hover{
+    color: red;
+}
+#socket{
+    background-color: #d9072d;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+}
+#socket p{
+    margin: 0;
+    font-size: 14px;
+}
+#socket a{
+    text-decoration: none;
+    color: #ffffff;
+}
+@media  (max-width:1050px){
+  .ourServiceParagraph {
+    display: block;
+    text-align: left;
+  }
+}
+@media (min-width:1060px){
+  .ourServiceParagraph .ourServiceTwo{
+    padding-left:65px;
+  }
+}
+@media (min-width:200px){
+.location,.Email-headoffice{ text-align: center; }
+}
+@media (max-width:900px){
+    footer{
+        height: fit-content;
+    }
+    .footer-content{
+        display: block;
+    }
+    .footer-content .callUs .callUs-title{text-align: left; margin-left: 3px;}
+    .footer-content .callUs,.footer-content .location-email,
+    .footer-content .icons{
+        margin: 70px 0px;
+    }
+    .footer-content .icons { display:inline-block; text-align:center;}
+}
+@media (max-width:900px){
+  .SafetyItems .Safetyitem img,.SafetyItems .Safetyitem span{
+       width: 80%;
+  }
+}
+@media (max-width:1200px){
+    .SafetyItems{
+        display: block;
+    }
+    .SafetyItems .Safetyitem{
+        margin:12px 0px;
+    }
+}
+@media (max-width:1200px){
+    .AboutUs .AboutContent{
+        display: block;
+    }
+    .AboutUs .paragraphAboutUs{
+        margin-top: 20px;
+    }
+    .AboutUs h5{
+        width: 200%;
+    }
+    .AboutUs p{
+        width:200%;
+    }
+}
